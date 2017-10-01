@@ -1,6 +1,6 @@
 {% set name = "nbval" %}
-{% set version = "0.5" %}
-{% set sha256 = "bd245c0fb3ade4aff63948d31de5cb5f92129c7387e597d1229f687e5350eba7" %}
+{% set version = "0.7" %}
+{% set sha256 = "1f009c45ce38abda6b3c1b755cf080f7cd25526721fe3f0060fce89f2a9fb861" %}
 
 package:
   name: {{ name|lower }}
@@ -13,6 +13,7 @@ source:
 
 build:
   number: 0
+  noarch: python
   script: python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
