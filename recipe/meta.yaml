@@ -1,6 +1,6 @@
 {% set name = "nbval" %}
-{% set version = "0.7" %}
-{% set sha256 = "1f009c45ce38abda6b3c1b755cf080f7cd25526721fe3f0060fce89f2a9fb861" %}
+{% set version = "0.9.0" %}
+{% set sha256 = "dec2a26bb32a29f92a577554b7142f960b8a91bca8cfaf23f4238718197bf7f3" %}
 
 package:
   name: {{ name|lower }}
