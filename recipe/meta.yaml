@@ -32,6 +32,8 @@ requirements:
 test:
   imports:
     - nbval
+  commands:
+    - py.test --nbval | grep nbval-{{ version }}
 
 about:
   home: https://github.com/computationalmodelling/nbval
