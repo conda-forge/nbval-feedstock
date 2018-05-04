@@ -27,6 +27,7 @@ requirements:
     - nbformat
     - ipykernel
     - jupyter_client
+    - coverage
 
 test:
   imports:
