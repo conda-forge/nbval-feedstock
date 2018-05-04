@@ -14,12 +14,15 @@ Summary: A py.test plugin to validate Jupyter notebooks
 Current build status
 ====================
 
-All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/nbval-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/nbval-feedstock)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/nbval-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/nbval-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/nbval/badges/version.svg)](https://anaconda.org/conda-forge/nbval)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/nbval/badges/downloads.svg)](https://anaconda.org/conda-forge/nbval)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-nbval-green.svg)](https://anaconda.org/conda-forge/nbval) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/nbval.svg)](https://anaconda.org/conda-forge/nbval) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/nbval.svg)](https://anaconda.org/conda-forge/nbval) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/nbval.svg)](https://anaconda.org/conda-forge/nbval) |
 
 Installing nbval
 ================
