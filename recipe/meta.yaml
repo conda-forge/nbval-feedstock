@@ -1,6 +1,6 @@
 {% set name = "nbval" %}
-{% set version = "0.9.1" %}
-{% set sha256 = "3f18b87af4e94ccd073263dd58cd3eebabe9f5e4d6ab535b39d3af64811c7eda" %}
+{% set version = "0.9.3" %}
+{% set sha256 = "f28f755d777f2ffbdfdcc3e3ea68a09b73d62a5aa45e3daaba179043656e2318" %}
 
 package:
   name: {{ name|lower }}
@@ -14,7 +14,7 @@ source:
 build:
   number: 0
   noarch: python
-  script: python -m pip install --no-deps --ignore-installed .
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   build:
