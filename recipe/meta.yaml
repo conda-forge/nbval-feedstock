@@ -1,6 +1,6 @@
 {% set name = "nbval" %}
-{% set version = "0.9.5" %}
-{% set sha256 = "e8727bb54ae844368fd17a40c15f3bf2ae64be6ec3a9ac1433e0155ddeb902f6" %}
+{% set version = "0.9.6" %}
+{% set sha256 = "cfefcd2ef66ee2d337d0b252c6bcec4023384eb32e8b9e5fcc3ac80ab8cd7d40" %}
 
 package:
   name: {{ name|lower }}
@@ -39,8 +39,8 @@ about:
   home: https://github.com/computationalmodelling/nbval
   license: BSD-3-Clause
   license_family: BSD
-  license_file: 'LICENSE'
-  summary: 'A py.test plugin to validate Jupyter notebooks'
+  license_file: LICENSE
+  summary: A py.test plugin to validate Jupyter notebooks
 
 extra:
   recipe-maintainers:
