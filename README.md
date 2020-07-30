@@ -5,7 +5,7 @@ Home: https://github.com/computationalmodelling/nbval
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: A py.test plugin to validate Jupyter notebooks
 
