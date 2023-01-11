@@ -1,6 +1,6 @@
 {% set name = "nbval" %}
-{% set version = "0.9.6" %}
-{% set sha256 = "cfefcd2ef66ee2d337d0b252c6bcec4023384eb32e8b9e5fcc3ac80ab8cd7d40" %}
+{% set version = "0.10.0" %}
+{% set sha256 = "b4acefdc1132aef8a1b5b62bf9a93d128eba52839b2854ea3e42598f4db7beb3" %}
 
 package:
   name: {{ name|lower }}
@@ -17,7 +17,7 @@ build:
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
-  build:
+  host:
     - python
     - pip
   run:
