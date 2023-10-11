@@ -44,5 +44,6 @@ about:
 
 extra:
   recipe-maintainers:
+    - hoxbro
     - kain88-de
     - takluyver
