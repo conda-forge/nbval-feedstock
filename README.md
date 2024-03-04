@@ -7,7 +7,7 @@ Home: https://github.com/computationalmodelling/nbval
 
 Package license: BSD-3-Clause
 
-Summary: A py.test plugin to validate Jupyter notebooks
+Summary: A pytest plugin to validate Jupyter notebooks
 
 Current build status
 ====================
@@ -95,7 +95,7 @@ available continuous integration services. Thanks to the awesome service provide
 [CircleCI](https://circleci.com/), [AppVeyor](https://www.appveyor.com/),
 [Drone](https://cloud.drone.io/welcome), and [TravisCI](https://travis-ci.com/)
 it is possible to build and upload installable packages to the
-[conda-forge](https://anaconda.org/conda-forge) [Anaconda-Cloud](https://anaconda.org/)
+[conda-forge](https://anaconda.org/conda-forge) [anaconda.org](https://anaconda.org/)
 channel for Linux, Windows and OSX respectively.
 
 To manage the continuous integration and simplify feedstock maintenance
@@ -143,6 +143,7 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@hoxbro](https://github.com/hoxbro/)
 * [@kain88-de](https://github.com/kain88-de/)
 * [@takluyver](https://github.com/takluyver/)
 
